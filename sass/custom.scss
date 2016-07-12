@@ -1,0 +1,67 @@
+//Custom Css
+
+/*Color Variables*/
+$lime: #b0eb00;
+$bright-red: #b30015;
+$dark-blue: #2a00b3;
+$deep-cerulean: #0077b3;
+$bondi-blue: #00b0b3;
+$cyan: #24fbff;
+$heliotrope: #8a7dff;
+$silver-chalice: #a6a6a6;
+$scorpion: #595959;
+$tundora: #444;
+$mine-shaft: #363636;
+$cod-gray: #111;
+
+body{
+	margin:0;
+	font-family: Helvetica;
+	font-weight:lighter;	
+}
+
+.landing{
+	background:#1C1C1C;
+	height:100vh;
+}
+
+nav{
+	height:7vh;
+	min-height:80px;
+	display:fixed;
+	top:0; 
+	background: rgba(0,0,0,.2);
+	display:flex;
+
+	.logo{
+		display: flex;
+		justify-content: flex-start;
+		width:20%;
+		align-items: center;
+		height: 100%;
+	}
+
+	.navlinks{
+		display: flex;
+		justify-content: flex-end;
+		width:80%;
+		align-items: center;
+
+		ul{
+			height: 100%;
+			margin:0;
+		}
+
+		ul li{
+			display: inline-block;
+			height: 100%;
+		}
+
+		a{
+			color:white;
+			text-decoration: none;
+			font-size: 2em;
+			margin-right: 70px;
+		}
+	}
+}
